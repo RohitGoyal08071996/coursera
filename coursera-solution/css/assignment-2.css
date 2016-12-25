@@ -1,0 +1,165 @@
+header>h1{
+	text-align:center;
+	border:1px solid black;
+	background-image: url(images/foody.jpg);
+	background-size: contain;
+
+	font-size: 1.75em;
+}
+.menu1, .menu2, .menu3{
+	float:right;
+	border-left:1px solid black;
+	border-bottom: 1px solid black;
+	padding-left: 18px;
+	padding-right:18px;
+	margin: 0px;
+	font-variant: small-caps;
+	font-size: 1.75em;
+}
+.menu1{
+	background-color: rgba(255,51,0,0.7);
+}
+
+
+.menu2{
+	background-color: rgba(102,255,102,0.7);
+
+}
+
+
+.menu3{
+	background-color: rgba(0, 204, 255, 0.7)
+}
+
+
+#menu1, #menu2, #menu3{
+	padding: 10px;
+	font-size: 1.25em;
+	margin:0px;
+} 
+
+
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+
+p{
+	clear:both;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+.parent1, .parent2, .parent3{
+	border:1px solid black;
+	padding: 0px;
+	background-size:contain;
+
+}
+
+
+.parent1{
+	background-image:url(images/images2.jpg);
+
+}
+
+
+.parent2{
+	background-image: url(images/images3.jpeg);
+}
+
+
+.parent3{
+	background-image: url(images/images1.jpeg);
+
+}
+
+
+*{
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/* desktop version */
+@media (min-width: 992px){
+	header>h1{
+		margin:3.33%;
+	}
+	
+	.parent1{
+		float: left;
+		width: 28.933%;
+		margin-left: 3.3% ;
+		margin-right: 0%;
+		margin-top: 3.3%;
+		margin-bottom: 3.3%;
+	}
+	.parent2{
+		float: left;
+		width: 28.933%;
+		margin-left: 3.3%;
+		margin-right: 0%;
+		margin-top: 3.3%;
+		margin-bottom: 3.3% ;
+	}
+	.parent3{
+		float: right;
+		width: 28.933%;
+		margin-left: 0px;
+		margin-right: 3.3% ;
+		margin-top: 3.3% ;
+		margin-bottom: 3.3%;
+	}
+
+	
+}
+
+@media (min-device-width: 768px) and (max-device-width: 991px){
+	/* Tablet Version */
+	header > h1{
+		margin-left: 3.3%;
+		margin-right: 3.3%;
+	}
+	.parent1{
+		margin-left: 3.3%;
+		margin-right: 3%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		float: left;
+		max-width: 45%;
+	}
+	.parent2{
+		margin-left: 0.3%;
+		margin-right: 3.3%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		float: left;
+		max-width: 45%;
+	}
+	.parent3{
+
+		float: left;
+		max-width: 93.4%;
+		margin-left: 3.3%;
+		margin-right: 3.3%
+
+	}
+}
+
+@media screen and (max-device-width: 767px){
+	/*Mobile Version */
+	header > h1{
+		margin: 5%;
+		padding:auto;
+	}
+	.parent1, .parent2, .parent3{
+		max-width: 90%;
+		margin: 5%;
+
+	}
+
+}
