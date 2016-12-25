@@ -85,7 +85,7 @@ p{
 
 
 /* desktop version */
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
 	header>h1{
 		margin:3.33%;
 	}
@@ -118,7 +118,7 @@ p{
 	
 }
 
-@media (min-device-width: 768px) and (max-device-width: 991px){
+@media screen and (min-width: 768px) and (max-device-width: 991px){
 	/* Tablet Version */
 	header > h1{
 		margin-left: 3.3%;
